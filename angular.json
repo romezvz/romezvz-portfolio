@@ -27,9 +27,15 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/favicon.ico",
+              "src/assets",
+              "src/app"
             ],
-            "styles": ["src/styles.scss"],
+            "styles": [
+              "src/assets/styles/styles.css",
+              "src/assets/styles/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -81,9 +87,15 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/favicon.ico",
+              "src/assets",
+              "src/app"
             ],
-            "styles": ["src/styles.scss"],
+            "styles": [
+              "src/assets/styles/styles.css",
+              "src/assets/styles/styles.scss"
+            ],
             "scripts": []
           }
         },
