@@ -10,11 +10,18 @@ rm -rf dist/
 # Build the project with a dummy href base
 ng build --base-href=/RomezVz/
 
-# Fix the actual base href in the generated index.html
+# Index path within dist
 INDEX_PATH="dist/$PROJECT_NAME/browser/index.html"
+
+# Fix the base href in index.html
 sed -i 's|<base href="[^"]*"|<base href="/'"$PROJECT_NAME"'/\"|' "$INDEX_PATH"
 
 # Deploy to GitHub Pages
 npx angular-cli-ghpages --dir=dist/$PROJECT_NAME/browser
 
-echo "✅ Deployment completed: https://romezvz.github.io/$PROJECT_NAME/"
+# Final URL of the site
+URL="https://romezvz.github.io/$PROJECT_NAME/"
+
+echo ""
+echo "✅ Deploy completed in:"
+echo "$URL"
