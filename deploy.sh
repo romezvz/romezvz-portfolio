@@ -1,19 +1,20 @@
 #!/bin/bash
+# File to automate deployments to GitHub Pages
 
-# Nombre del proyecto / repositorio
+# Name of the project/repo to deploy
 PROJECT_NAME="romezvz-portfolio"
 
-# Limpiar carpeta dist
+# Clean dist folder
 rm -rf dist/
 
-# Build del proyecto con base href ficticio (evita ruta local basura)
-ng build --base-href=FIXME
+# Build the project with a dummy href base
+ng build --base-href=/RomezVz/
 
-# Corregir el base href real en el index.html generado
-INDEX_PATH="dist/$PROJECT_NAME/index.html"
+# Fix the actual base href in the generated index.html
+INDEX_PATH="dist/$PROJECT_NAME/browser/index.html"
 sed -i 's|<base href="[^"]*"|<base href="/'"$PROJECT_NAME"'/\"|' "$INDEX_PATH"
 
-# Hacer deploy a GitHub Pages
-npx angular-cli-ghpages --dir=dist/$PROJECT_NAME
+# Deploy to GitHub Pages
+npx angular-cli-ghpages --dir=dist/$PROJECT_NAME/browser
 
-echo "✅ Deploy completado: https://romezvz.github.io/$PROJECT_NAME/"
+echo "✅ Deployment completed: https://romezvz.github.io/$PROJECT_NAME/"
