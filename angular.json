@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "strava-app": {
+    "romezvz-portfolio": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -60,10 +60,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "strava-app:build:production"
+              "buildTarget": "romezvz-portfolio:build:production"
             },
             "development": {
-              "buildTarget": "strava-app:build:development"
+              "buildTarget": "romezvz-portfolio:build:development"
             }
           },
           "defaultConfiguration": "development"
