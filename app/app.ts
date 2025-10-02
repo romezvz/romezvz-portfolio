@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common'
 import { Component, inject } from '@angular/core'
 import { RouterOutlet } from '@angular/router'
 import { LangService } from '@core/services/lang.service'
@@ -6,15 +5,13 @@ import { ThemeService } from '@core/services/theme.service'
 import { TranslateModule, TranslateService } from '@ngx-translate/core'
 
 @Component({
-  standalone: true,
-  selector: 'rz-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
-  imports: [CommonModule, RouterOutlet, TranslateModule],
+  selector: 'app-root',
+  templateUrl: './app.html',
+  styleUrls: ['./app.scss'],
+  imports: [RouterOutlet, TranslateModule],
   providers: [TranslateService, ThemeService, LangService]
 })
-export class AppComponent {
-  // Dependency injection for services
+export class App {
   private readonly _themeService = inject(ThemeService)
   private readonly _langService = inject(LangService)
 
@@ -23,17 +20,11 @@ export class AppComponent {
     this._langService.initLang()
   }
 
-  /**
-   * Toggles the application's theme between dark and light mode.
-   */
-  toggleTheme() {
+  toggleTheme(): void {
     this._themeService.toggleTheme()
   }
 
-  /**
-   * Toggles the application's Lang between es and en.
-   */
-  toggleLang() {
+  toggleLang(): void {
     this._langService.toggleLang()
   }
 }

@@ -19,7 +19,7 @@ export class LangService {
   initLang(): void {
     if (this._isBrowser) {
       const storedLang = localStorage.getItem(LANG) ?? ES_LANG
-      this._translateService.setDefaultLang(ES_LANG)
+      this._translateService.use(ES_LANG)
       this._translateService.use(storedLang)
       localStorage.setItem(LANG, storedLang)
     }
@@ -32,7 +32,7 @@ export class LangService {
     if (!this._isBrowser) {
       return
     }
-    const currentLang = this._translateService.currentLang
+    const currentLang = this._translateService.getCurrentLang()
     const newLang = currentLang === ES_LANG ? EN_LANG : ES_LANG
     this._translateService.use(newLang)
     localStorage.setItem(LANG, newLang)
@@ -42,6 +42,6 @@ export class LangService {
    * Gets the current active language.
    */
   getCurrentLang(): string {
-    return this._translateService.currentLang
+    return this._translateService.getCurrentLang()
   }
 }

@@ -56,10 +56,7 @@ export class ThemeService {
    * @returns {boolean} - True if dark mode is enabled, false otherwise.
    */
   private _documentTheme(): boolean {
-    return (
-      this._document.querySelector('html')?.classList.toggle(THEME_DARK) ??
-      false
-    )
+    return this._document.querySelector('html')?.classList.toggle(THEME_DARK) ?? false
   }
 
   /**
