@@ -1,0 +1,1 @@
+import{Aa as n,Ya as o,Za as c,mb as a}from"./chunk-4QE2CY3C.js";var m=class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=n({type:e,selectors:[["app-contact"]],decls:2,vars:0,template:function(t,i){t&1&&(o(0,"p"),a(1,"contact"),c())},encapsulation:2})};export{m as ContactComponent};
