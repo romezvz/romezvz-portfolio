@@ -2,7 +2,7 @@
  * Const for defining the routes in the app
  */
 export const ROUTES = {
-  HOME: 'home',
+  HOME: '',
   PROJECTS: 'projects',
   ARTICLES: 'articles',
   TEMPLATES: 'templates',

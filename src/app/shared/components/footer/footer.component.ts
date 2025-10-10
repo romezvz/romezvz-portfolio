@@ -9,7 +9,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router'
 })
 export class FooterComponent {
   links = [
-    { label: 'Home', path: '/home' },
+    { label: 'Home', path: '/' },
     { label: 'Projects', path: '/projects' },
     { label: 'Articles', path: '/articles' },
     { label: 'Templates', path: '/templates' },
