@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { RouterLink } from '@angular/router'
+import { RouterLink, RouterLinkActive } from '@angular/router'
 import { ToggleLangComponent } from '@shared/components/toggle-lang/toggle-lang.component'
 import { ToggleThemeComponent } from '@shared/components/toggle-theme/toggle-theme.component'
 
@@ -7,6 +7,14 @@ import { ToggleThemeComponent } from '@shared/components/toggle-theme/toggle-the
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
-  imports: [ToggleLangComponent, ToggleThemeComponent, RouterLink]
+  imports: [ToggleLangComponent, ToggleThemeComponent, RouterLink, RouterLinkActive]
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  links = [
+    { label: 'Home', path: '/' },
+    { label: 'Projects', path: '/projects' },
+    { label: 'Articles', path: '/articles' },
+    { label: 'Templates', path: '/templates' },
+    { label: 'Contact', path: '/contact' }
+  ]
+}

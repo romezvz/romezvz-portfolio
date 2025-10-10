@@ -4,7 +4,7 @@ import {
   provideBrowserGlobalErrorListeners,
   provideZoneChangeDetection
 } from '@angular/core'
-import { provideRouter } from '@angular/router'
+import { provideRouter, withInMemoryScrolling } from '@angular/router'
 import { LoadingInterceptor } from '@core/interceptors/loading.interceptor'
 import { provideTranslateService } from '@ngx-translate/core'
 import { provideTranslateHttpLoader } from '@ngx-translate/http-loader'
@@ -24,7 +24,13 @@ export const appConfig: ApplicationConfig = {
     /**
      * Configures the Angular router with the application's defined routes.
      */
-    provideRouter(routes),
+    provideRouter(
+      routes,
+      withInMemoryScrolling({
+        scrollPositionRestoration: 'top',
+        anchorScrolling: 'enabled'
+      })
+    ),
 
     /**
      * Configures the HTTP client with the fetch strategy for handling HTTP requests.

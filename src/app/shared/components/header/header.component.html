@@ -1,6 +1,28 @@
 <header>
+  <div class="header-nav">
+    <nav class="header-links">
+      @for (link of links; track link.path; let last = $last) {
+        <a
+          [routerLink]="link.path"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          {{ link.label }}
+        </a>
+        @if (!last) {
+          /
+        }
+      }
+    </nav>
+  </div>
+
   <div class="header-top">
-    <img src="assets/images/profile.jpg" alt="Foto de perfil de Jose Romero" class="header-photo" />
+    <img
+      src="assets/images/profile.jpg"
+      alt="Foto de perfil de Jose Romero"
+      class="header-photo"
+      [routerLink]="''"
+    />
     <div>
       <app-toggle-lang></app-toggle-lang>
       <app-toggle-theme></app-toggle-theme>
@@ -15,9 +37,8 @@
 
   <div class="header-description">
     <p class="header-text">
-      Right now, I’ve just launched this minimal portfolio template you're viewing (get it here).
-      I'm also working on my own projects, sharing my thoughts on my blog and I document my whole
-      journey.
+      Right now, I’ve just launched this minimal portfolio template you're viewing. I'm also working
+      on my own projects, sharing my thoughts on my blog and I document my whole journey.
     </p>
 
     <p [routerLink]="'contact'" class="header-contact">Get in touch →</p>
