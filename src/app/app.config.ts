@@ -1,10 +1,11 @@
-import { provideHttpClient, withFetch } from '@angular/common/http'
+import { provideHttpClient, withFetch, withInterceptors } from '@angular/common/http'
 import {
   ApplicationConfig,
   provideBrowserGlobalErrorListeners,
   provideZoneChangeDetection
 } from '@angular/core'
 import { provideRouter } from '@angular/router'
+import { LoadingInterceptor } from '@core/interceptors/loading.interceptor'
 import { provideTranslateService } from '@ngx-translate/core'
 import { provideTranslateHttpLoader } from '@ngx-translate/http-loader'
 import { ES_LANG, THEME_DARK, THEME_PRESET } from '@shared/constants/global.constants'
@@ -29,6 +30,11 @@ export const appConfig: ApplicationConfig = {
      * Configures the HTTP client with the fetch strategy for handling HTTP requests.
      */
     provideHttpClient(withFetch()),
+
+    /**
+     * Configures the HTTP client with the fetch strategy for handling HTTP requests.
+     */
+    provideHttpClient(withInterceptors([LoadingInterceptor])),
 
     /**
      * Imports and sets up translation modules for internationalization (i18n).
