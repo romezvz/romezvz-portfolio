@@ -1,15 +1,15 @@
 @use 'fonts';
 @import 'primeicons/primeicons.css';
 
-body {
-  max-width: 800px;
-  margin: 0 auto !important;
-  padding: 64px 32px 32px;
-}
-
 html {
   font-size: 0.875rem;
   @media (min-width: 768px) {
     font-size: 1rem;
   }
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto !important;
+  padding: 2rem;
 }
