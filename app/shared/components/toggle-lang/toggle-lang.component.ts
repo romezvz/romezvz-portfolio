@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core'
-import { LangService } from '@core/services/lang.service'
+import { LangService } from '@shared/services/lang.service'
 import { ButtonModule } from 'primeng/button'
 
 @Component({

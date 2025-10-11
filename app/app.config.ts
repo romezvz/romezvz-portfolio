@@ -5,10 +5,10 @@ import {
   provideZoneChangeDetection
 } from '@angular/core'
 import { provideRouter, withInMemoryScrolling } from '@angular/router'
-import { LoadingInterceptor } from '@core/interceptors/loading.interceptor'
 import { provideTranslateService } from '@ngx-translate/core'
 import { provideTranslateHttpLoader } from '@ngx-translate/http-loader'
 import { ES_LANG, THEME_DARK, THEME_PRESET } from '@shared/constants/global.constants'
+import { LoadingInterceptor } from '@shared/interceptors/loading.interceptor'
 import { providePrimeNG } from 'primeng/config'
 import { routes } from './app.routes'
 

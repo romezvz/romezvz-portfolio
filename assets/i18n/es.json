@@ -1,7 +1,9 @@
 {
-  "app": {
-    "title": "RomezVz",
-    "mode": "Modo",
-    "lang": "Lenguaje"
+  "ROUTES": {
+    "HOME": "Inicio",
+    "PROJECTS": "Proyectos",
+    "ARTICLES": "Articulos",
+    "TEMPLATES": "Plantillas",
+    "CONTACT": "Contacto"
   }
 }

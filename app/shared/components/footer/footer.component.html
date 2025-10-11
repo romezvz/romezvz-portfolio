@@ -1,17 +1,4 @@
-<div class="footer-container">
-  <nav class="footer-links">
-    @for (link of links; track link.path; let last = $last) {
-      <a
-        [routerLink]="link.path"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{ exact: true }"
-      >
-        {{ link.label }}
-      </a>
-      @if (!last) {
-        /
-      }
-    }
-  </nav>
-  <p class="footer-copy">© 2025 - Made with ♥ by Jose Romero</p>
+<div class="footer-container flex flex-col items-center py-4 mt-8">
+  <app-links></app-links>
+  <p class="text-style text-sm font-medium">© 2025 - Made with ♥ by Jose Romero</p>
 </div>
