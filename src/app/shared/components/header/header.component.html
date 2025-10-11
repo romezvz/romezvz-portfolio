@@ -1,26 +1,9 @@
 <header>
-  <div class="header-nav">
-    <nav class="header-links">
-      @for (link of links; track link.path; let last = $last) {
-        <a
-          [routerLink]="link.path"
-          routerLinkActive="active"
-          [routerLinkActiveOptions]="{ exact: true }"
-        >
-          {{ link.label }}
-        </a>
-        @if (!last) {
-          /
-        }
-      }
-    </nav>
-  </div>
-
-  <div class="header-top">
+  <div class="flex justify-between my-8">
     <img
       src="assets/images/profile.jpg"
       alt="Foto de perfil de Jose Romero"
-      class="header-photo"
+      class="w-28 h-28 rounded-full cursor-pointer"
       [routerLink]="''"
     />
     <div>
@@ -29,18 +12,16 @@
     </div>
   </div>
 
-  <p class="header-title">
+  <p class="title-style text-4xl mb-8 cursor-pointer">
     Hey, I’m Jose Romero. <br />
     I'm a front-end developer & <br />
     creator based in Barcelona, ES.
   </p>
 
-  <div class="header-description">
-    <p class="header-text">
-      Right now, I’ve just launched this minimal portfolio template you're viewing. I'm also working
-      on my own projects, sharing my thoughts on my blog and I document my whole journey.
-    </p>
+  <p class="text-style text-base mb-8">
+    Right now, I’ve just launched this minimal portfolio template you're viewing. I'm also working
+    on my own projects, sharing my thoughts on my blog and I document my whole journey.
+  </p>
 
-    <p [routerLink]="'contact'" class="header-contact">Get in touch →</p>
-  </div>
+  <a class="link-item text-sm font-medium mb-8" [routerLink]="'contact'">Get in touch →</a>
 </header>

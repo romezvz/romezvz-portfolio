@@ -1,8 +1,8 @@
 import { TestBed } from '@angular/core/testing'
 import { provideRouter } from '@angular/router'
-import { LangService } from '@core/services/lang.service'
-import { ThemeService } from '@core/services/theme.service'
 import { TranslateModule, TranslateService } from '@ngx-translate/core'
+import { LangService } from '@shared/services/lang.service'
+import { ThemeService } from '@shared/services/theme.service'
 import { AppComponent } from './app.component'
 import { routes } from './app.routes'
 

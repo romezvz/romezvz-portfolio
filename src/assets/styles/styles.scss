@@ -1,4 +1,5 @@
 @use 'fonts';
+@use 'variables';
 @import 'primeicons/primeicons.css';
 
 html {
@@ -9,7 +10,54 @@ html {
 }
 
 body {
-  max-width: 800px;
   margin: 0 auto !important;
+  max-width: 800px;
   padding: 2rem;
+}
+
+.title-style {
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  line-height: 1.2em;
+}
+
+.text-style {
+  font-family: 'Roboto Mono', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 1.75em;
+}
+
+.link-item {
+  position: relative;
+  text-decoration: none;
+  width: fit-content;
+  cursor: pointer;
+  font-family: 'Roboto Mono', sans-serif;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    background-color: var(--color-primary);
+    transition: width 0.25s ease;
+  }
+
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+
+  &.active {
+    &::after {
+      width: 100%;
+    }
+  }
 }

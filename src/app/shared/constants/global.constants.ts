@@ -9,15 +9,6 @@ export const EN_LANG = 'en'
 /* Numeric variables  */
 export const ZERO = 0
 export const ONE = 1
-export const TWO = 2
-export const THREE = 3
-export const FOUR = 4
-export const FIVE = 5
-export const SEVEN = 7
-
-/* Color variables  */
-export const WHITE = '#ffffff'
-export const BLACK = '#000000'
 
 /* Variables associated with theme styles */
 export const THEME = 'theme'
