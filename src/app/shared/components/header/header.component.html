@@ -13,15 +13,14 @@
   </div>
 
   <p class="title-style text-4xl mb-8 cursor-pointer">
-    Hey, I’m Jose Romero. <br />
-    I'm a front-end developer & <br />
-    creator based in Barcelona, ES.
+    {{ 'HEADER.TITLE' | translate }}
   </p>
 
   <p class="text-style text-base mb-8">
-    Right now, I’ve just launched this minimal portfolio template you're viewing. I'm also working
-    on my own projects, sharing my thoughts on my blog and I document my whole journey.
+    {{ 'HEADER.DESCRIPTION' | translate }}
   </p>
 
-  <a class="link-item text-sm font-medium mb-8" [routerLink]="'contact'">Get in touch →</a>
+  <a class="link-item text-sm font-medium mb-8" [routerLink]="'contact'">{{
+    'HEADER.CONTACT' | translate
+  }}</a>
 </header>

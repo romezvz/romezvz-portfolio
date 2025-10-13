@@ -7,7 +7,7 @@ import {
 import { provideRouter, withInMemoryScrolling } from '@angular/router'
 import { provideTranslateService } from '@ngx-translate/core'
 import { provideTranslateHttpLoader } from '@ngx-translate/http-loader'
-import { ES_LANG, THEME_DARK, THEME_PRESET } from '@shared/constants/global.constants'
+import { EN_LANG, THEME_DARK, THEME_PRESET } from '@shared/constants/global.constants'
 import { LoadingInterceptor } from '@shared/interceptors/loading.interceptor'
 import { providePrimeNG } from 'primeng/config'
 import { routes } from './app.routes'
@@ -51,8 +51,8 @@ export const appConfig: ApplicationConfig = {
         prefix: './assets/i18n/',
         suffix: '.json'
       }),
-      fallbackLang: ES_LANG,
-      lang: ES_LANG
+      fallbackLang: EN_LANG,
+      lang: EN_LANG
     }),
 
     /**

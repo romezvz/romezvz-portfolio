@@ -1,23 +1,23 @@
 <section class="articles-section">
   <div class="section-header">
-    <h2 class="section-title">Articles</h2>
-    <a [routerLink]="'articles'" class="section-sub-title">See all</a>
+    <h2 class="section-title">{{ 'ARTICLES.TITLE' | translate }}</h2>
+    <a [routerLink]="'articles'" class="section-sub-title">{{ 'COMMON.SEE_ALL' | translate }}</a>
   </div>
 
   <div class="articles-container">
     <article class="article-container">
-      <h3 class="article-title">The Power of Clean Code in Modern Web Development</h3>
-      <p class="article-sub-title">Read →</p>
+      <h3 class="article-title">{{ 'ARTICLES.ARTICLE_1_TITLE' | translate }}</h3>
+      <p class="article-sub-title">{{ 'ARTICLES.VIEW' | translate }} →</p>
     </article>
 
     <article class="article-container">
-      <h3 class="article-title">Building Consistency: The Real Secret to Fitness Progress</h3>
-      <p class="article-sub-title">Read →</p>
+      <h3 class="article-title">{{ 'ARTICLES.ARTICLE_2_TITLE' | translate }}</h3>
+      <p class="article-sub-title">{{ 'ARTICLES.VIEW' | translate }} →</p>
     </article>
 
     <article class="article-container">
-      <h3 class="article-title">How to Stay Focused and Get More Done in Less Time</h3>
-      <p class="article-sub-title">Read →</p>
+      <h3 class="article-title">{{ 'ARTICLES.ARTICLE_3_TITLE' | translate }}</h3>
+      <p class="article-sub-title">{{ 'ARTICLES.VIEW' | translate }} →</p>
     </article>
   </div>
 </section>
