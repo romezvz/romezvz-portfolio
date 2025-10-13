@@ -5,5 +5,48 @@
     "ARTICLES": "Articles",
     "TEMPLATES": "Templates",
     "CONTACT": "Contact"
+  },
+  "COMMON": {
+    "SEE_ALL": "See all"
+  },
+  "HEADER": {
+    "TITLE": "Hey, I’m Jose Romero.\n Front-end developer \n Based in Barcelona, ES.",
+    "DESCRIPTION": "Right now, I’ve just launched this minimal portfolio template you're viewing. I'm also working on my own projects, sharing my thoughts on my blog and I document my whole journey.",
+    "CONTACT": "Get in touch →"
+  },
+  "FOOTER": {
+    "TITLE": "© 2025 - Made with ♥ by Jose Romero"
+  },
+  "PROJECTS": {
+    "TITLE": "Projects",
+    "VIEW": "View project",
+    "PROJECT_1_TITLE": "Running App",
+    "PROJECT_1_DESCRIPTION": "A clean and fast running tracker to log distance, pace, and time — built for simplicity and focus.",
+    "PROJECT_2_TITLE": "Weather App",
+    "PROJECT_2_DESCRIPTION": "WA minimalist weather app showing real-time forecasts and clear visuals for any location.",
+    "PROJECT_3_TITLE": "To-do App",
+    "PROJECT_3_DESCRIPTION": "A simple and effective task manager to organize daily goals and stay productive."
+  },
+  "ARTICLES": {
+    "TITLE": "Articles",
+    "VIEW": "Read",
+    "ARTICLE_1_TITLE": "The Power of Clean Code in Modern Web Development",
+    "ARTICLE_2_TITLE": "The Real Secret to Fitness Progress",
+    "ARTICLE_3_TITLE": "How to Stay Focused and Get More Done in Less Time"
+  },
+  "TEMPLATES": {
+    "TITLE": "Templates",
+    "VIEW": "View template",
+    "TEMPLATE_1_TITLE": "Notes Dashboard",
+    "TEMPLATE_1_DESCRIPTION": "The ultimate note-taking experience.",
+    "TEMPLATE_2_TITLE": "Finance Tracker",
+    "TEMPLATE_2_DESCRIPTION": "Keep track of all your finances.",
+    "TEMPLATE_3_TITLE": "Travel Planner",
+    "TEMPLATE_3_DESCRIPTION": "Plan your next travel itinerary.",
+    "TEMPLATE_4_TITLE": "Workout Tracker",
+    "TEMPLATE_4_DESCRIPTION": "A basic workout tracking tool."
+  },
+  "CONTACT": {
+    "TITLE": "Contact"
   }
 }

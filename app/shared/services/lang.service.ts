@@ -18,8 +18,8 @@ export class LangService {
    */
   initLang(): void {
     if (this._isBrowser) {
-      const storedLang = localStorage.getItem(LANG) ?? ES_LANG
-      this._translateService.use(ES_LANG)
+      const storedLang = localStorage.getItem(LANG) ?? EN_LANG
+      this._translateService.use(EN_LANG)
       this._translateService.use(storedLang)
       localStorage.setItem(LANG, storedLang)
     }
@@ -33,7 +33,7 @@ export class LangService {
       return
     }
     const currentLang = this._translateService.getCurrentLang()
-    const newLang = currentLang === ES_LANG ? EN_LANG : ES_LANG
+    const newLang = currentLang === EN_LANG ? ES_LANG : EN_LANG
     this._translateService.use(newLang)
     localStorage.setItem(LANG, newLang)
   }
