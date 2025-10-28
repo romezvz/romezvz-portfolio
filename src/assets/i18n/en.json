@@ -11,7 +11,11 @@
   },
   "HEADER": {
     "TITLE": "Hey, I’m Jose Romero.\n Front-end developer \n Based in Barcelona, ES.",
+    "TITLE_SMALL": "Jose Romero",
     "DESCRIPTION": "Right now, I’ve just launched this minimal portfolio template you're viewing. I'm also working on my own projects, sharing my thoughts on my blog and I document my whole journey.",
+    "DESCRIPTION_PROJECTS": "Ideas turned into code. Small projects where I experiment, learn, and bring new solutions to life.",
+    "DESCRIPTION_ARTICLES": "Thoughts, experiences, and lessons about life, technology, fitness, and everything that inspires me to keep growing.",
+    "DESCRIPTION_TEMPLATES": "Templates created in Notion to help you organize your life, focus on what's important, and build your best self.",
     "CONTACT": "Get in touch →"
   },
   "FOOTER": {

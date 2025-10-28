@@ -11,7 +11,11 @@
   },
   "HEADER": {
     "TITLE": "Hola, soy Jose Romero.\n Desarrollador front-end \n Viviendo en Barcelona, ​​ES.",
+    "TITLE_SMALL": "Jose Romero",
     "DESCRIPTION": "Acabo de lanzar este portafolio minimalista que estás viendo. También estoy trabajando en mis propios proyectos, compartiendo mis ideas en mi blog y documentando toda mi trayectoria.",
+    "DESCRIPTION_PROJECTS": "Ideas convertidas en código. Pequeños proyectos donde experimento, aprendo y doy vida a nuevas soluciones.",
+    "DESCRIPTION_ARTICLES": "Pensamientos, experiencias y aprendizajes sobre la vida, la tecnología, el fitness y todo lo que me inspira a seguir creciendo.",
+    "DESCRIPTION_TEMPLATES": "Plantillas creadas en Notion para ayudarte a organizar tu vida, enfocarte en lo importante y construir tu mejor versión.",
     "CONTACT": "Contactame →"
   },
   "FOOTER": {

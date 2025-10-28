@@ -1,9 +1,13 @@
 <section class="py-8">
   <div class="flex justify-between items-center py-4">
     <h2 class="title-style text-4xl">{{ 'ARTICLES.TITLE' | translate }}</h2>
-    <a [routerLink]="'articles'" class="text-style link-item">{{ 'COMMON.SEE_ALL' | translate }}</a>
+    <a [routerLink]="'/articles'" class="text-style link-item">{{
+      'COMMON.SEE_ALL' | translate
+    }}</a>
   </div>
-
+  <p class="text-style text-base my-4">
+    {{ 'HEADER.DESCRIPTION_ARTICLES' | translate }}
+  </p>
   <div class="py-4">
     <article class="article-container">
       <h3 class="text-style">{{ 'ARTICLES.ARTICLE_1_TITLE' | translate }}</h3>
