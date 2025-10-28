@@ -14,7 +14,7 @@
     </div>
   </div>
 
-  @if (!isNotHome) {
+  @if (isNotHome$ | async) {
     <p class="title-style text-4xl my-8 cursor-pointer">
       {{ 'HEADER.TITLE' | translate }}
     </p>
