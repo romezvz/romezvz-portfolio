@@ -19,7 +19,7 @@
   },
   "PROJECTS": {
     "TITLE": "Projects",
-    "VIEW": "View project",
+    "VIEW": "View project →",
     "PROJECT_1_TITLE": "Running App",
     "PROJECT_1_DESCRIPTION": "A clean and fast running tracker to log distance, pace, and time — built for simplicity and focus.",
     "PROJECT_2_TITLE": "Weather App",
@@ -29,14 +29,14 @@
   },
   "ARTICLES": {
     "TITLE": "Articles",
-    "VIEW": "Read",
+    "VIEW": "Read →",
     "ARTICLE_1_TITLE": "The Power of Clean Code in Modern Web Development",
     "ARTICLE_2_TITLE": "The Real Secret to Fitness Progress",
     "ARTICLE_3_TITLE": "How to Stay Focused and Get More Done in Less Time"
   },
   "TEMPLATES": {
     "TITLE": "Templates",
-    "VIEW": "View template",
+    "VIEW": "View template →",
     "TEMPLATE_1_TITLE": "Notes Dashboard",
     "TEMPLATE_1_DESCRIPTION": "The ultimate note-taking experience.",
     "TEMPLATE_2_TITLE": "Finance Tracker",
