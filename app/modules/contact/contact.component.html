@@ -1,37 +1,67 @@
-<section class="contacts-section">
-  <div class="section-header">
-    <h2 class="section-title">{{ 'CONTACT.TITLE' | translate }}</h2>
+<section class="py-8">
+  <div class="flex justify-between items-center py-4">
+    <h2 class="title-style text-4xl">{{ 'CONTACT.TITLE' | translate }}</h2>
   </div>
 
   <div class="contacts-container">
     <article class="contact-container">
-      <p class="contact-title">- Email</p>
-      <p class="contact-link">{{ email }}</p>
+      <p class="text-style">- Email</p>
+      <a
+        class="text-style link-item active text-sm"
+        href="mailto:romezvz@gmail.com"
+        target="_blank"
+        >{{ email }}</a
+      >
     </article>
 
     <article class="contact-container">
-      <p class="contact-title">- LinkedIn</p>
-      <p class="contact-link">{{ user }}</p>
+      <p class="text-style">- LinkedIn</p>
+      <a
+        class="text-style link-item active text-sm"
+        href="https://www.linkedin.com/in/romezvz/"
+        target="_blank"
+        >{{ user }}</a
+      >
     </article>
 
     <article class="contact-container">
-      <p class="contact-title">- GitHub</p>
-      <p class="contact-link">{{ user }}</p>
+      <p class="text-style">- GitHub</p>
+      <a
+        class="text-style link-item active text-sm"
+        href="https://github.com/romezvz"
+        target="_blank"
+        >{{ user }}</a
+      >
     </article>
 
     <article class="contact-container">
-      <p class="contact-title">- Instagram</p>
-      <p class="contact-link">{{ user }}</p>
+      <p class="text-style">- Gumroad</p>
+      <a
+        class="text-style link-item active text-sm"
+        href="https://romezvz.gumroad.com/"
+        target="_blank"
+        >{{ user }}</a
+      >
     </article>
 
     <article class="contact-container">
-      <p class="contact-title">- Twiter</p>
-      <p class="contact-link">{{ user }}</p>
+      <p class="text-style">- Instagram</p>
+      <a
+        class="text-style link-item active text-sm"
+        href="https://www.instagram.com/romezvz/"
+        target="_blank"
+        >{{ user }}</a
+      >
     </article>
 
     <article class="contact-container">
-      <p class="contact-title">- Strava</p>
-      <p class="contact-link">{{ user }}</p>
+      <p class="text-style">- Strava</p>
+      <a
+        class="text-style link-item active text-sm"
+        href="https://www.strava.com/athletes/165467449"
+        target="_blank"
+        >{{ user }}</a
+      >
     </article>
   </div>
 </section>

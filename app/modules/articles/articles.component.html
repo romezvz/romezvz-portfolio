@@ -1,23 +1,27 @@
-<section class="articles-section">
-  <div class="section-header">
-    <h2 class="section-title">{{ 'ARTICLES.TITLE' | translate }}</h2>
-    <a [routerLink]="'articles'" class="section-sub-title">{{ 'COMMON.SEE_ALL' | translate }}</a>
+<section class="py-8">
+  <div class="flex justify-between items-center py-4">
+    <h2 class="title-style text-4xl">{{ 'ARTICLES.TITLE' | translate }}</h2>
+    <a [routerLink]="'/articles'" class="text-style link-item">{{
+      'COMMON.SEE_ALL' | translate
+    }}</a>
   </div>
-
-  <div class="articles-container">
+  <p class="text-style text-base my-4">
+    {{ 'HEADER.DESCRIPTION_ARTICLES' | translate }}
+  </p>
+  <div class="py-4">
     <article class="article-container">
-      <h3 class="article-title">{{ 'ARTICLES.ARTICLE_1_TITLE' | translate }}</h3>
-      <p class="article-sub-title">{{ 'ARTICLES.VIEW' | translate }} →</p>
+      <h3 class="text-style">{{ 'ARTICLES.ARTICLE_1_TITLE' | translate }}</h3>
+      <p class="text-style link-item active text-sm">{{ 'ARTICLES.VIEW' | translate }}</p>
     </article>
 
     <article class="article-container">
-      <h3 class="article-title">{{ 'ARTICLES.ARTICLE_2_TITLE' | translate }}</h3>
-      <p class="article-sub-title">{{ 'ARTICLES.VIEW' | translate }} →</p>
+      <h3 class="text-style">{{ 'ARTICLES.ARTICLE_2_TITLE' | translate }}</h3>
+      <p class="text-style link-item active text-sm">{{ 'ARTICLES.VIEW' | translate }}</p>
     </article>
 
     <article class="article-container">
-      <h3 class="article-title">{{ 'ARTICLES.ARTICLE_3_TITLE' | translate }}</h3>
-      <p class="article-sub-title">{{ 'ARTICLES.VIEW' | translate }} →</p>
+      <h3 class="text-style">{{ 'ARTICLES.ARTICLE_3_TITLE' | translate }}</h3>
+      <p class="text-style link-item active text-sm">{{ 'ARTICLES.VIEW' | translate }}</p>
     </article>
   </div>
 </section>

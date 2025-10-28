@@ -10,8 +10,12 @@
     "SEE_ALL": "Ver todo"
   },
   "HEADER": {
-    "TITLE": "Hola, soy José Romero.\n Desarrollador front-end \n Viviendo en Barcelona, ​​ES.",
+    "TITLE": "Hola, soy Jose Romero.\n Desarrollador front-end \n Viviendo en Barcelona, ​​ES.",
+    "TITLE_SMALL": "Jose Romero",
     "DESCRIPTION": "Acabo de lanzar este portafolio minimalista que estás viendo. También estoy trabajando en mis propios proyectos, compartiendo mis ideas en mi blog y documentando toda mi trayectoria.",
+    "DESCRIPTION_PROJECTS": "Ideas convertidas en código. Pequeños proyectos donde experimento, aprendo y doy vida a nuevas soluciones.",
+    "DESCRIPTION_ARTICLES": "Pensamientos, experiencias y aprendizajes sobre la vida, la tecnología, el fitness y todo lo que me inspira a seguir creciendo.",
+    "DESCRIPTION_TEMPLATES": "Plantillas creadas en Notion para ayudarte a organizar tu vida, enfocarte en lo importante y construir tu mejor versión.",
     "CONTACT": "Contactame →"
   },
   "FOOTER": {
@@ -19,7 +23,7 @@
   },
   "PROJECTS": {
     "TITLE": "Proyectos",
-    "VIEW": "Ver proyecto",
+    "VIEW": "Ver proyecto →",
     "PROJECT_1_TITLE": "App para correr",
     "PROJECT_1_DESCRIPTION": "Un rastreador de carreras claro y rápido para registrar distancia, ritmo y tiempo, diseñado para la simplicidad y la concentración.",
     "PROJECT_2_TITLE": "App del tiempo",
@@ -29,14 +33,14 @@
   },
   "ARTICLES": {
     "TITLE": "Articulos",
-    "VIEW": "Leer",
+    "VIEW": "Leer →",
     "ARTICLE_1_TITLE": "El poder del código limpio en el desarrollo web moderno",
     "ARTICLE_2_TITLE": "El verdadero secreto para progresar en el fitness",
     "ARTICLE_3_TITLE": "Cómo mantener la concentración y hacer más en menos tiempo"
   },
   "TEMPLATES": {
     "TITLE": "Plantillas",
-    "VIEW": "Ver plantilla",
+    "VIEW": "Ver plantilla →",
     "TEMPLATE_1_TITLE": "Panel de notas",
     "TEMPLATE_1_DESCRIPTION": "La experiencia definitiva para tomar notas.",
     "TEMPLATE_2_TITLE": "Seguimiento de finanzas",

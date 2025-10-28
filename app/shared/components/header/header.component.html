@@ -1,26 +1,29 @@
 <header>
-  <div class="flex justify-between my-8">
-    <img
-      src="assets/images/profile.jpg"
-      alt="Foto de perfil de Jose Romero"
-      class="w-28 h-28 rounded-full cursor-pointer"
-      [routerLink]="''"
-    />
+  <div class="flex justify-between mt-8">
+    <div class="flex items-center">
+      <img
+        src="assets/images/profile.jpg"
+        alt="Foto de perfil de Jose Romero"
+        class="w-28 h-28 rounded-full cursor-pointer"
+        [routerLink]="''"
+      />
+    </div>
     <div>
       <app-toggle-lang></app-toggle-lang>
       <app-toggle-theme></app-toggle-theme>
     </div>
   </div>
 
-  <p class="title-style text-4xl mb-8 cursor-pointer">
-    {{ 'HEADER.TITLE' | translate }}
-  </p>
+  @if (!isNotHome) {
+    <p class="title-style text-4xl my-8 cursor-pointer">
+      {{ 'HEADER.TITLE' | translate }}
+    </p>
+    <p class="text-style text-base mb-8">
+      {{ 'HEADER.DESCRIPTION' | translate }}
+    </p>
 
-  <p class="text-style text-base mb-8">
-    {{ 'HEADER.DESCRIPTION' | translate }}
-  </p>
-
-  <a class="link-item text-sm font-medium mb-8" [routerLink]="'contact'">{{
-    'HEADER.CONTACT' | translate
-  }}</a>
+    <a class="link-item text-sm font-medium mb-8" [routerLink]="'contact'">{{
+      'HEADER.CONTACT' | translate
+    }}</a>
+  }
 </header>

@@ -11,7 +11,11 @@
   },
   "HEADER": {
     "TITLE": "Hey, I’m Jose Romero.\n Front-end developer \n Based in Barcelona, ES.",
+    "TITLE_SMALL": "Jose Romero",
     "DESCRIPTION": "Right now, I’ve just launched this minimal portfolio template you're viewing. I'm also working on my own projects, sharing my thoughts on my blog and I document my whole journey.",
+    "DESCRIPTION_PROJECTS": "Ideas turned into code. Small projects where I experiment, learn, and bring new solutions to life.",
+    "DESCRIPTION_ARTICLES": "Thoughts, experiences, and lessons about life, technology, fitness, and everything that inspires me to keep growing.",
+    "DESCRIPTION_TEMPLATES": "Templates created in Notion to help you organize your life, focus on what's important, and build your best self.",
     "CONTACT": "Get in touch →"
   },
   "FOOTER": {
@@ -19,7 +23,7 @@
   },
   "PROJECTS": {
     "TITLE": "Projects",
-    "VIEW": "View project",
+    "VIEW": "View project →",
     "PROJECT_1_TITLE": "Running App",
     "PROJECT_1_DESCRIPTION": "A clean and fast running tracker to log distance, pace, and time — built for simplicity and focus.",
     "PROJECT_2_TITLE": "Weather App",
@@ -29,14 +33,14 @@
   },
   "ARTICLES": {
     "TITLE": "Articles",
-    "VIEW": "Read",
+    "VIEW": "Read →",
     "ARTICLE_1_TITLE": "The Power of Clean Code in Modern Web Development",
     "ARTICLE_2_TITLE": "The Real Secret to Fitness Progress",
     "ARTICLE_3_TITLE": "How to Stay Focused and Get More Done in Less Time"
   },
   "TEMPLATES": {
     "TITLE": "Templates",
-    "VIEW": "View template",
+    "VIEW": "View template →",
     "TEMPLATE_1_TITLE": "Notes Dashboard",
     "TEMPLATE_1_DESCRIPTION": "The ultimate note-taking experience.",
     "TEMPLATE_2_TITLE": "Finance Tracker",
