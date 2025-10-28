@@ -1,9 +1,11 @@
 <section class="py-8">
   <div class="flex justify-between items-center py-4">
     <h2 class="title-style text-4xl">{{ 'TEMPLATES.TITLE' | translate }}</h2>
-    <a [routerLink]="'/templates'" class="text-style link-item">{{
-      'COMMON.SEE_ALL' | translate
-    }}</a>
+    @if (isNotHome$ | async) {
+      <a [routerLink]="'/templates'" class="text-style link-item">{{
+        'COMMON.SEE_ALL' | translate
+      }}</a>
+    }
   </div>
   <p class="text-style text-base my-4">
     {{ 'HEADER.DESCRIPTION_TEMPLATES' | translate }}
