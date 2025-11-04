@@ -15,7 +15,6 @@ export class LinksComponent {
     { label: 'ROUTES.HOME', path: ROUTES.HOME },
     { label: 'ROUTES.PROJECTS', path: ROUTES.PROJECTS },
     { label: 'ROUTES.ARTICLES', path: ROUTES.ARTICLES },
-    { label: 'ROUTES.TEMPLATES', path: ROUTES.TEMPLATES },
     { label: 'ROUTES.CONTACT', path: ROUTES.CONTACT }
   ]
 }

@@ -1,7 +1,7 @@
-<nav class="flex justify-center py-4 gap-2">
+<nav class="flex justify-center items-center py-4 gap-2">
   @for (link of links; track link.path; let last = $last) {
     <a
-      class="link-item text-sm font-medium"
+      class="link-item font-medium text-sm hover:underline"
       [routerLink]="link.path"
       routerLinkActive="active"
       [routerLinkActiveOptions]="{ exact: true }"

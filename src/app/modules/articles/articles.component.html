@@ -2,7 +2,7 @@
   <div class="flex justify-between items-center py-4">
     <h2 class="title-style text-4xl">{{ 'ARTICLES.TITLE' | translate }}</h2>
     @if (isNotHome$ | async) {
-      <a [routerLink]="'/articles'" class="text-style link-item">{{
+      <a [routerLink]="'/articles'" class="text-style link-item hover:underline">{{
         'COMMON.SEE_ALL' | translate
       }}</a>
     }
@@ -11,19 +11,19 @@
     {{ 'HEADER.DESCRIPTION_ARTICLES' | translate }}
   </p>
   <div class="py-4">
-    <article class="article-container">
+    <a class="article-container" href="">
       <h3 class="text-style">{{ 'ARTICLES.ARTICLE_1_TITLE' | translate }}</h3>
-      <p class="text-style link-item active text-sm">{{ 'ARTICLES.VIEW' | translate }}</p>
-    </article>
+      <p class="text-style link-item ml-8">{{ 'ARTICLES.VIEW' | translate }}</p>
+    </a>
 
-    <article class="article-container">
+    <a class="article-container" href="">
       <h3 class="text-style">{{ 'ARTICLES.ARTICLE_2_TITLE' | translate }}</h3>
-      <p class="text-style link-item active text-sm">{{ 'ARTICLES.VIEW' | translate }}</p>
-    </article>
+      <p class="text-style link-item ml-8">{{ 'ARTICLES.VIEW' | translate }}</p>
+    </a>
 
-    <article class="article-container">
+    <a class="article-container" href="">
       <h3 class="text-style">{{ 'ARTICLES.ARTICLE_3_TITLE' | translate }}</h3>
-      <p class="text-style link-item active text-sm">{{ 'ARTICLES.VIEW' | translate }}</p>
-    </article>
+      <p class="text-style link-item ml-8">{{ 'ARTICLES.VIEW' | translate }}</p>
+    </a>
   </div>
 </section>
