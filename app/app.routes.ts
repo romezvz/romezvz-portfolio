@@ -22,11 +22,6 @@ export const routes: Routes = [
       import('@modules/articles/articles.component').then((m) => m.ArticlesComponent)
   },
   {
-    path: ROUTES.TEMPLATES,
-    loadComponent: () =>
-      import('@modules/templates/templates.component').then((m) => m.TemplatesComponent)
-  },
-  {
     path: ROUTES.CONTACT,
     loadComponent: () =>
       import('@modules/contact/contact.component').then((m) => m.ContactComponent)

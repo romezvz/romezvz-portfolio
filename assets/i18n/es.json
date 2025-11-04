@@ -3,7 +3,6 @@
     "HOME": "Inicio",
     "PROJECTS": "Proyectos",
     "ARTICLES": "Articulos",
-    "TEMPLATES": "Plantillas",
     "CONTACT": "Contacto"
   },
   "COMMON": {
@@ -12,10 +11,10 @@
   "HEADER": {
     "TITLE": "Hola, soy Jose Romero.\n Desarrollador front-end \n Viviendo en Barcelona, ​​ES.",
     "TITLE_SMALL": "Jose Romero",
-    "DESCRIPTION": "Acabo de lanzar este portafolio minimalista que estás viendo. También estoy trabajando en mis propios proyectos, compartiendo mis ideas en mi blog y documentando toda mi trayectoria.",
+    "DESCRIPTION": "He lanzado este portafolio minimalista donde compartiré mi trabajo como desarrollador, junto con mis proyectos personales, ideas y experiencias. Todo lo que forma parte de mi camino y lo que me inspira a seguir creando.",
     "DESCRIPTION_PROJECTS": "Ideas convertidas en código. Pequeños proyectos donde experimento, aprendo y doy vida a nuevas soluciones.",
     "DESCRIPTION_ARTICLES": "Pensamientos, experiencias y aprendizajes sobre la vida, la tecnología, el fitness y todo lo que me inspira a seguir creciendo.",
-    "DESCRIPTION_TEMPLATES": "Plantillas creadas en Notion para ayudarte a organizar tu vida, enfocarte en lo importante y construir tu mejor versión.",
+    "DESCRIPTION_CONTACT": "¿Tienes un proyecto en mente o solo quieres saludar? Creemos algo genial juntos.",
     "CONTACT": "Contactame →"
   },
   "FOOTER": {
@@ -24,12 +23,18 @@
   "PROJECTS": {
     "TITLE": "Proyectos",
     "VIEW": "Ver proyecto →",
-    "PROJECT_1_TITLE": "App para correr",
-    "PROJECT_1_DESCRIPTION": "Un rastreador de carreras claro y rápido para registrar distancia, ritmo y tiempo, diseñado para la simplicidad y la concentración.",
-    "PROJECT_2_TITLE": "App del tiempo",
-    "PROJECT_2_DESCRIPTION": "Una app minimalista del tiempo que muestra pronósticos en tiempo real e imágenes claras para cualquier ubicación.",
-    "PROJECT_3_TITLE": "App de tareas",
-    "PROJECT_3_DESCRIPTION": "Un gestor de tareas sencillo y eficaz para organizar tus objetivos diarios y mantenerte productivo."
+    "PROJECT_1_TITLE": "Ignis Gravitas",
+    "PROJECT_1_DESCRIPTION": "Una aceleradora digital para startups y un exclusivo ecosistema emprendedor en crecimiento.",
+    "PROJECT_2_TITLE": "Profit4life",
+    "PROJECT_2_DESCRIPTION": "Academia dedicada al Forex y el manejo de inversiones y oportunidades financieras.",
+    "PROJECT_3_TITLE": "Átomo Virtual",
+    "PROJECT_3_DESCRIPTION": "Agencia de desarrollo web, diseño de sitios y plataformas optimizadas para posicionar.",
+    "PROJECT_4_TITLE": "App para correr",
+    "PROJECT_4_DESCRIPTION": "Un rastreador de carreras claro y rápido para registrar distancia, ritmo y tiempo, diseñado para la simplicidad y la concentración.",
+    "PROJECT_5_TITLE": "App del tiempo",
+    "PROJECT_5_DESCRIPTION": "Una app minimalista del tiempo que muestra pronósticos en tiempo real e imágenes claras para cualquier ubicación.",
+    "PROJECT_6_TITLE": "App de tareas",
+    "PROJECT_6_DESCRIPTION": "Un gestor de tareas sencillo y eficaz para organizar tus objetivos diarios y mantenerte productivo."
   },
   "ARTICLES": {
     "TITLE": "Articulos",
@@ -38,19 +43,8 @@
     "ARTICLE_2_TITLE": "El verdadero secreto para progresar en el fitness",
     "ARTICLE_3_TITLE": "Cómo mantener la concentración y hacer más en menos tiempo"
   },
-  "TEMPLATES": {
-    "TITLE": "Plantillas",
-    "VIEW": "Ver plantilla →",
-    "TEMPLATE_1_TITLE": "Panel de notas",
-    "TEMPLATE_1_DESCRIPTION": "La experiencia definitiva para tomar notas.",
-    "TEMPLATE_2_TITLE": "Seguimiento de finanzas",
-    "TEMPLATE_2_DESCRIPTION": "Lleva un registro de todas tus finanzas.",
-    "TEMPLATE_3_TITLE": "Planificador de viajes",
-    "TEMPLATE_3_DESCRIPTION": "Planifica tu próximo viaje itinerario.",
-    "TEMPLATE_4_TITLE": "Seguimiento de ejercicios",
-    "TEMPLATE_4_DESCRIPTION": "Una herramienta básica para el seguimiento del entrenamiento."
-  },
   "CONTACT": {
-    "TITLE": "Contacto"
+    "TITLE": "Contacto",
+    "DOWNLOAD_CV": "Descargar CV"
   }
 }

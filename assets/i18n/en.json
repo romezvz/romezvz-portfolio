@@ -3,7 +3,6 @@
     "HOME": "Home",
     "PROJECTS": "Projects",
     "ARTICLES": "Articles",
-    "TEMPLATES": "Templates",
     "CONTACT": "Contact"
   },
   "COMMON": {
@@ -12,10 +11,10 @@
   "HEADER": {
     "TITLE": "Hey, I’m Jose Romero.\n Front-end developer \n Based in Barcelona, ES.",
     "TITLE_SMALL": "Jose Romero",
-    "DESCRIPTION": "Right now, I’ve just launched this minimal portfolio template you're viewing. I'm also working on my own projects, sharing my thoughts on my blog and I document my whole journey.",
+    "DESCRIPTION": "I've launched this minimalist portfolio where I'll share my work as a developer, along with my personal projects, ideas, and experiences. Everything that's part of my journey and inspires me to keep creating.",
     "DESCRIPTION_PROJECTS": "Ideas turned into code. Small projects where I experiment, learn, and bring new solutions to life.",
     "DESCRIPTION_ARTICLES": "Thoughts, experiences, and lessons about life, technology, fitness, and everything that inspires me to keep growing.",
-    "DESCRIPTION_TEMPLATES": "Templates created in Notion to help you organize your life, focus on what's important, and build your best self.",
+    "DESCRIPTION_CONTACT": "Have a project in mind or just want to say hi? Let’s make something great together.",
     "CONTACT": "Get in touch →"
   },
   "FOOTER": {
@@ -24,12 +23,18 @@
   "PROJECTS": {
     "TITLE": "Projects",
     "VIEW": "View project →",
-    "PROJECT_1_TITLE": "Running App",
-    "PROJECT_1_DESCRIPTION": "A clean and fast running tracker to log distance, pace, and time — built for simplicity and focus.",
-    "PROJECT_2_TITLE": "Weather App",
-    "PROJECT_2_DESCRIPTION": "WA minimalist weather app showing real-time forecasts and clear visuals for any location.",
-    "PROJECT_3_TITLE": "To-do App",
-    "PROJECT_3_DESCRIPTION": "A simple and effective task manager to organize daily goals and stay productive."
+    "PROJECT_1_TITLE": "Ignis Gravitas",
+    "PROJECT_1_DESCRIPTION": "A digital accelerator for startups and an exclusive, growing entrepreneurial ecosystem.",
+    "PROJECT_2_TITLE": "Profit4life",
+    "PROJECT_2_DESCRIPTION": "Academy dedicated to Forex and the management of investments and financial opportunities.",
+    "PROJECT_3_TITLE": "Átomo Virtual",
+    "PROJECT_3_DESCRIPTION": "Web development agency, designing websites and platforms optimized for search engine ranking.",
+    "PROJECT_4_TITLE": "App para correr",
+    "PROJECT_4_DESCRIPTION": "Un rastreador de carreras claro y rápido para registrar distancia, ritmo y tiempo, diseñado para la simplicidad y la concentración.",
+    "PROJECT_5_TITLE": "App del tiempo",
+    "PROJECT_5_DESCRIPTION": "Una app minimalista del tiempo que muestra pronósticos en tiempo real e imágenes claras para cualquier ubicación.",
+    "PROJECT_6_TITLE": "App de tareas",
+    "PROJECT_6_DESCRIPTION": "Un gestor de tareas sencillo y eficaz para organizar tus objetivos diarios y mantenerte productivo."
   },
   "ARTICLES": {
     "TITLE": "Articles",
@@ -38,19 +43,8 @@
     "ARTICLE_2_TITLE": "The Real Secret to Fitness Progress",
     "ARTICLE_3_TITLE": "How to Stay Focused and Get More Done in Less Time"
   },
-  "TEMPLATES": {
-    "TITLE": "Templates",
-    "VIEW": "View template →",
-    "TEMPLATE_1_TITLE": "Notes Dashboard",
-    "TEMPLATE_1_DESCRIPTION": "The ultimate note-taking experience.",
-    "TEMPLATE_2_TITLE": "Finance Tracker",
-    "TEMPLATE_2_DESCRIPTION": "Keep track of all your finances.",
-    "TEMPLATE_3_TITLE": "Travel Planner",
-    "TEMPLATE_3_DESCRIPTION": "Plan your next travel itinerary.",
-    "TEMPLATE_4_TITLE": "Workout Tracker",
-    "TEMPLATE_4_DESCRIPTION": "A basic workout tracking tool."
-  },
   "CONTACT": {
-    "TITLE": "Contact"
+    "TITLE": "Contact",
+    "DOWNLOAD_CV": "Download CV"
   }
 }

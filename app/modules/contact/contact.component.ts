@@ -9,5 +9,5 @@ import { TranslatePipe } from '@ngx-translate/core'
 })
 export class ContactComponent {
   email = 'romezvz@gmail.com'
-  user = '@romezvz'
+  user = '@romezvz →'
 }
