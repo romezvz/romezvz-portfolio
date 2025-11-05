@@ -10,13 +10,8 @@ import { BehaviorSubject } from 'rxjs'
  */
 @Injectable({ providedIn: 'root' })
 export class LoadingService {
-  /** Internal subject to track loading state (true = loading, false = not loading) */
   readonly _loading = new BehaviorSubject<boolean>(false)
-
-  /** Observable stream of the current loading state, for components to subscribe */
   readonly loading$ = this._loading.asObservable()
-
-  /** Tracks the number of active processes requesting loading */
   private _requests = ZERO
 
   /**

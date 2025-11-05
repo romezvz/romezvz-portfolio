@@ -9,7 +9,6 @@ import { LoadingService } from '@shared/services/loading.service'
   imports: [CommonModule]
 })
 export class LoaderComponent {
-  // Dependency injection for services
   readonly _loadingService = inject(LoadingService)
   isLoading$ = this._loadingService.loading$
 }

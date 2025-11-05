@@ -1,5 +1,7 @@
 import { Component } from '@angular/core'
 import { TranslatePipe } from '@ngx-translate/core'
+import { CONSTACTS } from '@shared/constants/global.constants'
+import { ContactInterface } from '@shared/interfaces/global.interfaces'
 
 @Component({
   selector: 'app-contact',
@@ -8,6 +10,5 @@ import { TranslatePipe } from '@ngx-translate/core'
   imports: [TranslatePipe]
 })
 export class ContactComponent {
-  email = 'romezvz@gmail.com'
-  user = '@romezvz →'
+  contacts: ContactInterface[] = CONSTACTS
 }

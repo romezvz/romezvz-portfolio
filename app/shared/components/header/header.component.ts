@@ -23,5 +23,5 @@ import { ButtonModule } from 'primeng/button'
 })
 export class HeaderComponent {
   readonly _routerStateService = inject(RouterStateService)
-  isNotHome$ = this._routerStateService.isNotHome$
+  isHome$ = this._routerStateService.isHome$
 }

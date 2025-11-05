@@ -1,7 +1,7 @@
 <section class="py-8">
   <div class="flex justify-between items-center py-4">
     <h2 class="title-style text-4xl">{{ 'ARTICLES.TITLE' | translate }}</h2>
-    @if (isNotHome$ | async) {
+    @if (isHome$ | async) {
       <a [routerLink]="'/articles'" class="text-style link-item hover:underline">{{
         'COMMON.SEE_ALL' | translate
       }}</a>
@@ -11,19 +11,11 @@
     {{ 'HEADER.DESCRIPTION_ARTICLES' | translate }}
   </p>
   <div class="py-4">
-    <a class="article-container" href="">
-      <h3 class="text-style">{{ 'ARTICLES.ARTICLE_1_TITLE' | translate }}</h3>
-      <p class="text-style link-item ml-8">{{ 'ARTICLES.VIEW' | translate }}</p>
-    </a>
-
-    <a class="article-container" href="">
-      <h3 class="text-style">{{ 'ARTICLES.ARTICLE_2_TITLE' | translate }}</h3>
-      <p class="text-style link-item ml-8">{{ 'ARTICLES.VIEW' | translate }}</p>
-    </a>
-
-    <a class="article-container" href="">
-      <h3 class="text-style">{{ 'ARTICLES.ARTICLE_3_TITLE' | translate }}</h3>
-      <p class="text-style link-item ml-8">{{ 'ARTICLES.VIEW' | translate }}</p>
-    </a>
+    @for (article of articles; track $index) {
+      <a class="article-container" [routerLink]="[`/${routes.ARTICLES}`, article.id]">
+        <h3 class="text-style">{{ article.title | translate }}</h3>
+        <p class="text-style link-item ml-8 hover:underline">{{ 'ARTICLES.VIEW' | translate }}</p>
+      </a>
+    }
   </div>
 </section>

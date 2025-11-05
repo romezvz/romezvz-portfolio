@@ -1,7 +1,7 @@
 <section class="py-8">
   <div class="flex justify-between items-center py-4">
     <h2 class="title-style text-4xl">{{ 'PROJECTS.TITLE' | translate }}</h2>
-    @if (isNotHome$ | async) {
+    @if (isHome$ | async) {
       <a [routerLink]="'/projects'" class="text-style link-item hover:underline">{{
         'COMMON.SEE_ALL' | translate
       }}</a>
@@ -11,52 +11,22 @@
     {{ 'HEADER.DESCRIPTION_PROJECTS' | translate }}
   </p>
   <div class="projects-container">
-    <a
-      class="project-container bg-zinc-50 dark:bg-zinc-900 transition ease-in-out hover:-translate-y-1 hover:scale-100 hover:shadow-md duration-300"
-      href="https://www.ignisgravitas.com/en"
-      target="_blank"
-    >
-      <div class="grid gap-4">
-        <div class="flex justify-between">
-          <h3 class="title-style text-2xl">{{ 'PROJECTS.PROJECT_1_TITLE' | translate }}</h3>
+    @for (project of projects; track $index) {
+      <a
+        class="project-container bg-zinc-50 dark:bg-zinc-900 transition ease-in-out hover:-translate-y-1 hover:scale-100 hover:shadow-md duration-300"
+        href="{{ project.url }}"
+        target="_blank"
+      >
+        <div class="grid gap-4">
+          <div class="flex justify-between">
+            <h3 class="title-style text-2xl">{{ project.title | translate }}</h3>
+          </div>
+          <p class="text-style">
+            {{ project.description | translate }}
+          </p>
+          <a class="text-style link-item hover:underline">{{ 'PROJECTS.VIEW' | translate }} </a>
         </div>
-        <p class="text-style">
-          {{ 'PROJECTS.PROJECT_1_DESCRIPTION' | translate }}
-        </p>
-        <a class="text-style link-item">{{ 'PROJECTS.VIEW' | translate }} </a>
-      </div>
-    </a>
-
-    <a
-      class="project-container bg-zinc-50 dark:bg-zinc-900 transition ease-in-out hover:-translate-y-1 hover:scale-100 hover:shadow-md duration-300"
-      href="https://www.profit4lifevnzla.com/"
-      target="_blank"
-    >
-      <div class="grid gap-4">
-        <div class="flex justify-between">
-          <h3 class="title-style text-2xl">{{ 'PROJECTS.PROJECT_2_TITLE' | translate }}</h3>
-        </div>
-        <p class="text-style">
-          {{ 'PROJECTS.PROJECT_2_DESCRIPTION' | translate }}
-        </p>
-        <a class="text-style link-item">{{ 'PROJECTS.VIEW' | translate }} </a>
-      </div>
-    </a>
-
-    <a
-      class="project-container bg-zinc-50 dark:bg-zinc-900 transition ease-in-out hover:-translate-y-1 hover:scale-100 hover:shadow-md duration-300"
-      href="https://romezvz.github.io/atomo-virtual/"
-      target="_blank"
-    >
-      <div class="grid gap-4">
-        <div class="flex justify-between">
-          <h3 class="title-style text-2xl">{{ 'PROJECTS.PROJECT_3_TITLE' | translate }}</h3>
-        </div>
-        <p class="text-style">
-          {{ 'PROJECTS.PROJECT_3_DESCRIPTION' | translate }}
-        </p>
-        <a class="text-style link-item">{{ 'PROJECTS.VIEW' | translate }} </a>
-      </div>
-    </a>
+      </a>
+    }
   </div>
 </section>

@@ -22,6 +22,13 @@ export const routes: Routes = [
       import('@modules/articles/articles.component').then((m) => m.ArticlesComponent)
   },
   {
+    path: `${ROUTES.ARTICLES}/:id`,
+    loadComponent: () =>
+      import('@modules/articles/articles-detail/articles-detail.component').then(
+        (m) => m.ArticlesDetailComponent
+      )
+  },
+  {
     path: ROUTES.CONTACT,
     loadComponent: () =>
       import('@modules/contact/contact.component').then((m) => m.ContactComponent)
