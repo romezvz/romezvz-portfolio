@@ -8,14 +8,12 @@
 
   <div class="contacts-container">
     @for (contact of contacts; track $index) {
-      <article class="contact-container">
+      <a class="contact-container" href="{{ contact.url }}" target="_blank">
         <p class="text-style text-sm flex items-center">
           <i class="pi {{ contact.icon }} mr-3"></i>{{ contact.title }}
         </p>
-        <a class="text-style link-item hover:underline" href="{{ contact.url }}" target="_blank">{{
-          contact.user
-        }}</a>
-      </article>
+        <p class="text-style link-item hover:underline">{{ contact.user }}</p>
+      </a>
     }
   </div>
 </section>
