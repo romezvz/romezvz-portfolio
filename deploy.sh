@@ -8,19 +8,22 @@ PROJECT_NAME="romezvz-portfolio"
 rm -rf dist/
 
 # Build the project with a dummy href base
-ng build --base-href=/RomezVz/
+ng build --base-href=/
 
 # Index path within dist
 INDEX_PATH="dist/$PROJECT_NAME/browser/index.html"
 
-# Fix the base href in index.html
-sed -i 's|<base href="[^"]*"|<base href="/'"$PROJECT_NAME"'/\"|' "$INDEX_PATH"
+# (Optional) Fix the base href in index.html if needed
+sed -i 's|<base href="[^"]*"|<base href="/\"|' "$INDEX_PATH"
+
+# Add CNAME file for custom domain
+echo "romezvz.com" > dist/$PROJECT_NAME/browser/CNAME
 
 # Deploy to GitHub Pages
 npx angular-cli-ghpages --dir=dist/$PROJECT_NAME/browser
 
 # Final URL of the site
-URL="https://romezvz.github.io/$PROJECT_NAME/"
+URL="https://romezvz.com"
 
 echo ""
 echo "✅ Deploy completed in:"
