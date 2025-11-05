@@ -7,49 +7,15 @@
   </p>
 
   <div class="contacts-container">
-    <article class="contact-container">
-      <p class="text-style">Email</p>
-      <a class="text-style link-item" href="mailto:romezvz@gmail.com" target="_blank">{{
-        email
-      }}</a>
-    </article>
-
-    <article class="contact-container">
-      <p class="text-style">LinkedIn</p>
-      <a class="text-style link-item" href="https://www.linkedin.com/in/romezvz/" target="_blank">{{
-        user
-      }}</a>
-    </article>
-
-    <article class="contact-container">
-      <p class="text-style">GitHub</p>
-      <a class="text-style link-item" href="https://github.com/romezvz" target="_blank">{{
-        user
-      }}</a>
-    </article>
-
-    <article class="contact-container">
-      <p class="text-style">Gumroad</p>
-      <a class="text-style link-item" href="https://romezvz.gumroad.com/" target="_blank">{{
-        user
-      }}</a>
-    </article>
-
-    <article class="contact-container">
-      <p class="text-style">Instagram</p>
-      <a class="text-style link-item" href="https://www.instagram.com/romezvz/" target="_blank">{{
-        user
-      }}</a>
-    </article>
-
-    <article class="contact-container">
-      <p class="text-style">Strava</p>
-      <a
-        class="text-style link-item"
-        href="https://www.strava.com/athletes/165467449"
-        target="_blank"
-        >{{ user }}</a
-      >
-    </article>
+    @for (contact of contacts; track $index) {
+      <article class="contact-container">
+        <p class="text-style text-sm flex items-center">
+          <i class="pi {{ contact.icon }} mr-3"></i>{{ contact.title }}
+        </p>
+        <a class="text-style link-item hover:underline" href="{{ contact.url }}" target="_blank">{{
+          contact.user
+        }}</a>
+      </article>
+    }
   </div>
 </section>
