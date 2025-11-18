@@ -73,7 +73,7 @@ export const CONSTACTS: ContactInterface[] = [
     url: 'mailto:romezvz@gmail.com',
     title: 'Email',
     user: 'romezvz@gmail.com',
-    icon: 'pi-inbox'
+    icon: 'pi-envelope'
   },
   {
     url: 'https://www.linkedin.com/in/romezvz/',

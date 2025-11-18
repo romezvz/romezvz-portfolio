@@ -1,6 +1,8 @@
 <section class="py-8">
   <div class="flex justify-between items-center py-4">
-    <h2 class="title-style text-4xl">{{ 'ARTICLES.TITLE' | translate }}</h2>
+    <h2 class="title-style text-4xl flex items-center">
+      <i class="pi pi-book mr-3" style="font-size: 2rem"></i>{{ 'ARTICLES.TITLE' | translate }}
+    </h2>
     @if (isHome$ | async) {
       <a [routerLink]="'/articles'" class="text-style link-item hover:underline">{{
         'COMMON.SEE_ALL' | translate
