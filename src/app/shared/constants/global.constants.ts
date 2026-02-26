@@ -3,6 +3,7 @@ import Aura from '@primeuix/themes/aura'
 import {
   ArticleInterface,
   ContactInterface,
+  ExperienceInterface,
   LinkInterface,
   ProjectInterface
 } from '@shared/interfaces/global.interfaces'
@@ -24,27 +25,31 @@ export const THEME_DARK = 'dark'
 /* List of links  */
 export const LINKS: LinkInterface[] = [
   { label: 'ROUTES.HOME', path: ROUTES.HOME },
-  { label: 'ROUTES.PROJECTS', path: ROUTES.PROJECTS },
+  { label: 'ROUTES.EXPERIENCES', path: ROUTES.EXPERIENCES },
   { label: 'ROUTES.ARTICLES', path: ROUTES.ARTICLES },
+  { label: 'ROUTES.PROJECTS', path: ROUTES.PROJECTS },
   { label: 'ROUTES.CONTACT', path: ROUTES.CONTACT }
 ]
 
-/* List of projects  */
-export const PROJECTS: ProjectInterface[] = [
+/* List of experiences  */
+export const EXPERIENCES: ExperienceInterface[] = [
   {
-    url: 'https://www.ignisgravitas.com/en',
-    title: 'PROJECTS.PROJECT_1_TITLE',
-    description: 'PROJECTS.PROJECT_1_DESCRIPTION'
+    url: 'https://www.linkedin.com/company/soprasteria/',
+    title: 'EXPERIENCES.EXPERIENCE_1_TITLE',
+    description: 'EXPERIENCES.EXPERIENCE_1_DESCRIPTION',
+    date: 'EXPERIENCES.EXPERIENCE_1_DATE'
   },
   {
-    url: 'https://www.profit4lifevnzla.com/',
-    title: 'PROJECTS.PROJECT_2_TITLE',
-    description: 'PROJECTS.PROJECT_2_DESCRIPTION'
+    url: 'https://www.linkedin.com/company/matrix-cpm-solutions/',
+    title: 'EXPERIENCES.EXPERIENCE_2_TITLE',
+    description: 'EXPERIENCES.EXPERIENCE_2_DESCRIPTION',
+    date: 'EXPERIENCES.EXPERIENCE_2_DATE'
   },
   {
-    url: 'https://romezvz.github.io/atomo-virtual/',
-    title: 'PROJECTS.PROJECT_3_TITLE',
-    description: 'PROJECTS.PROJECT_3_DESCRIPTION'
+    url: 'https://www.linkedin.com/company/interfell/',
+    title: 'EXPERIENCES.EXPERIENCE_3_TITLE',
+    description: 'EXPERIENCES.EXPERIENCE_3_DESCRIPTION',
+    date: 'EXPERIENCES.EXPERIENCE_3_DATE'
   }
 ]
 
@@ -64,6 +69,25 @@ export const ARTICLES: ArticleInterface[] = [
     id: 3,
     title: 'ARTICLES.ARTICLE_3_TITLE',
     description: 'ARTICLES.ARTICLE_3_DESCRIPTION'
+  }
+]
+
+/* List of projects  */
+export const PROJECTS: ProjectInterface[] = [
+  {
+    url: 'https://www.ignisgravitas.com/en',
+    title: 'PROJECTS.PROJECT_1_TITLE',
+    description: 'PROJECTS.PROJECT_1_DESCRIPTION'
+  },
+  {
+    url: 'https://www.profit4lifevnzla.com/',
+    title: 'PROJECTS.PROJECT_2_TITLE',
+    description: 'PROJECTS.PROJECT_2_DESCRIPTION'
+  },
+  {
+    url: 'https://romezvz.github.io/atomo-virtual/',
+    title: 'PROJECTS.PROJECT_3_TITLE',
+    description: 'PROJECTS.PROJECT_3_DESCRIPTION'
   }
 ]
 

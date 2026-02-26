@@ -3,14 +3,21 @@ export interface LinkInterface {
   path: string
 }
 
-export interface ProjectInterface {
+export interface ExperienceInterface {
   url: string
   title: string
   description: string
+  date: string
 }
 
 export interface ArticleInterface {
   id: number
+  title: string
+  description: string
+}
+
+export interface ProjectInterface {
+  url: string
   title: string
   description: string
 }

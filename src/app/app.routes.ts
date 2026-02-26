@@ -12,9 +12,9 @@ export const routes: Routes = [
     loadComponent: () => import('@modules/home/home.component').then((m) => m.HomeComponent)
   },
   {
-    path: ROUTES.PROJECTS,
+    path: ROUTES.EXPERIENCES,
     loadComponent: () =>
-      import('@modules/projects/projects.component').then((m) => m.ProjectsComponent)
+      import('@modules/experiences/experiences.component').then((m) => m.ExperiencesComponent)
   },
   {
     path: ROUTES.ARTICLES,
@@ -27,6 +27,11 @@ export const routes: Routes = [
       import('@modules/articles/articles-detail/articles-detail.component').then(
         (m) => m.ArticlesDetailComponent
       )
+  },
+  {
+    path: ROUTES.PROJECTS,
+    loadComponent: () =>
+      import('@modules/projects/projects.component').then((m) => m.ProjectsComponent)
   },
   {
     path: ROUTES.CONTACT,

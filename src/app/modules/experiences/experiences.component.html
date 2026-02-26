@@ -1,0 +1,36 @@
+<section class="py-8">
+  <div class="flex justify-between items-center py-4">
+    <h2 class="title-style text-4xl flex items-center">
+      <i class="pi pi-briefcase mr-3" style="font-size: 2rem"></i
+      >{{ 'EXPERIENCES.TITLE' | translate }}
+    </h2>
+    @if (isHome$ | async) {
+      <a [routerLink]="'/experiences'" class="text-style link-item hover:underline">{{
+        'COMMON.SEE_ALL' | translate
+      }}</a>
+    }
+  </div>
+  <p class="text-style text-base my-4">
+    {{ 'HEADER.DESCRIPTION_EXPERIENCES' | translate }}
+  </p>
+  <div class="experiences-container">
+    @for (experience of experiences; track $index) {
+      <a
+        class="experience-container bg-zinc-50 dark:bg-zinc-900 transition ease-in-out hover:-translate-y-1 hover:scale-100 hover:shadow-md duration-300"
+        href="{{ experience.url }}"
+        target="_blank"
+      >
+        <div class="grid gap-4">
+          <div class="flex justify-between">
+            <h3 class="title-style text-2xl">{{ experience.title | translate }}</h3>
+            <p class="title-style text-l">{{ experience.date | translate }}</p>
+          </div>
+          <p class="text-style">
+            {{ experience.description | translate }}
+          </p>
+          <a class="text-style link-item hover:underline">{{ 'EXPERIENCES.VIEW' | translate }} </a>
+        </div>
+      </a>
+    }
+  </div>
+</section>

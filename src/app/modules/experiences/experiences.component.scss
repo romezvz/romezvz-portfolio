@@ -1,0 +1,22 @@
+.experiences-container {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  height: min-content;
+  justify-content: flex-start;
+  padding: 1rem 0;
+  position: relative;
+  width: 100%;
+
+  .experience-container {
+    border-radius: 1rem;
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    padding: 1rem;
+    grid-template-columns: 1fr;
+  }
+}

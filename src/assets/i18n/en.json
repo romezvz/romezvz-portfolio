@@ -1,6 +1,7 @@
 {
   "ROUTES": {
     "HOME": "Home",
+    "EXPERIENCES": "Experiences",
     "PROJECTS": "Projects",
     "ARTICLES": "Articles",
     "CONTACT": "Contact"
@@ -12,29 +13,27 @@
     "TITLE": "Hey, I’m Jose Romero.\n Front-end developer \n Based in Barcelona, ES.",
     "TITLE_SMALL": "Jose Romero",
     "DESCRIPTION": "I've launched this minimalist portfolio where I'll share my work as a developer, along with my personal projects, ideas, and experiences. Everything that's part of my journey and inspires me to keep creating.",
-    "DESCRIPTION_PROJECTS": "Ideas turned into code. Small projects where I experiment, learn, and bring new solutions to life.",
+    "DESCRIPTION_EXPERIENCES": "Experiences that reflect growth, responsibility, and technical consolidation throughout each professional stage.",
     "DESCRIPTION_ARTICLES": "Thoughts, experiences, and lessons about life, technology, fitness, and everything that inspires me to keep growing.",
+    "DESCRIPTION_PROJECTS": "Ideas turned into code. Small projects where I experiment, learn, and bring new solutions to life.",
     "DESCRIPTION_CONTACT": "Have a project in mind or just want to say hi? Let’s make something great together.",
     "CONTACT": "Get in touch →"
   },
   "FOOTER": {
     "TITLE": "© 2025 - Made with ♥ by Jose Romero"
   },
-  "PROJECTS": {
-    "TITLE": "Projects",
-    "VIEW": "View project →",
-    "PROJECT_1_TITLE": "Ignis Gravitas",
-    "PROJECT_1_DESCRIPTION": "A digital accelerator for startups and an exclusive, growing entrepreneurial ecosystem.",
-    "PROJECT_2_TITLE": "Profit4life",
-    "PROJECT_2_DESCRIPTION": "Academy dedicated to Forex and the management of investments and financial opportunities.",
-    "PROJECT_3_TITLE": "Átomo Virtual",
-    "PROJECT_3_DESCRIPTION": "Web development agency, designing websites and platforms optimized for search engine ranking.",
-    "PROJECT_4_TITLE": "App para correr",
-    "PROJECT_4_DESCRIPTION": "Un rastreador de carreras claro y rápido para registrar distancia, ritmo y tiempo, diseñado para la simplicidad y la concentración.",
-    "PROJECT_5_TITLE": "App del tiempo",
-    "PROJECT_5_DESCRIPTION": "Una app minimalista del tiempo que muestra pronósticos en tiempo real e imágenes claras para cualquier ubicación.",
-    "PROJECT_6_TITLE": "App de tareas",
-    "PROJECT_6_DESCRIPTION": "Un gestor de tareas sencillo y eficaz para organizar tus objetivos diarios y mantenerte productivo."
+  "EXPERIENCES": {
+    "TITLE": "Experiences",
+    "VIEW": "View company →",
+    "EXPERIENCE_1_TITLE": "Sopra Steria",
+    "EXPERIENCE_1_DESCRIPTION": "I develop frontend solutions with Angular and PrimeNG in agile environments, prioritizing code quality, continuous integration, and performance.",
+    "EXPERIENCE_1_DATE": "10/2022 - Present",
+    "EXPERIENCE_2_TITLE": "Matrix CPM Solutions",
+    "EXPERIENCE_2_DESCRIPTION": "I build applications with Angular, focused on modern interfaces, API consumption, and collaborative work using the Scrum methodology.",
+    "EXPERIENCE_2_DATE": "09/2020 - 11/2022",
+    "EXPERIENCE_3_TITLE": "Interfell",
+    "EXPERIENCE_3_DESCRIPTION": "Development of web and mobile applications with Angular and Ionic, integrating cloud services and external APIs in agile teams.",
+    "EXPERIENCE_3_DATE": "08/2021 - 04/2022"
   },
   "ARTICLES": {
     "TITLE": "Articles",
@@ -45,6 +44,16 @@
     "ARTICLE_2_DESCRIPTION": "Sometimes we think working out means living at the gym, drinking protein that tastes like cardboard, and posting selfies with your 'beast mode' face. But the truth is, your body doesn’t ask for that much. It just asks you to move, that’s all. \n \n Most of the time, we spend our day sitting: at work, in the car, watching Netflix… and the worst part is, we get used to it. Until one day, you climb a couple of stairs and your body says, “dude, when was the last time we did this?” \n \n The good news is, you don’t need an extreme routine to improve. Walking for 30 minutes, stretching when you wake up, or taking the stairs instead of the elevator already makes a difference. Your body starts working better, your mind clears up, and your stress levels drop. \n \n There are even studies showing that moving a few minutes every hour boosts productivity and focus. So it’s not just about looking better — it’s about feeling better. \n \n And yes, there will be days when you don’t feel like it. On those days, change your focus: don’t do it for looks, do it for well-being. Do it for that moment when you wake up with energy, or that feeling after training when you think, “it was worth it.” \n \n Because, let’s be honest, we all prefer 20 minutes of movement over 20 minutes of complaining.",
     "ARTICLE_3_TITLE": "Habits Are Like Bank Interest",
     "ARTICLE_3_DESCRIPTION": "Habits are like bank interest: small, but over time, they change your life. \n \n When we talk about “habits,” many people think of boring stuff: waking up early, eating healthy, reading every day… and it sounds like a to-do list you don’t really want to follow. But the trick is to see them differently — not as an obligation, but as a tool to make your life easier. \n \n Habits are nothing more than shortcuts for your brain. They’re the things you do without thinking — and that’s what makes them powerful. If you go to bed every night scrolling through your phone, that’s a habit. If you drink a glass of water when you wake up, that’s one too. The difference is which ones bring you closer to what you want and which ones pull you away. \n \n And no, you don’t need to change your whole life in a week. Start with something small: make your bed, go for a walk, write down three things you’re grateful for, or simply plan your day. When you repeat an action, your brain creates a faster path. And over time, it stops feeling like effort — it becomes automatic. \n \n Suddenly, without realizing it, you no longer need “motivation” to be productive. You just follow your system. And that’s the real secret of organization: not having infinite willpower, but building an environment where your good habits work for you. \n \n Results don’t come overnight, but when they do, it feels like magic. Because yes, habits are small… but over time, they become your superpower."
+  },
+  "PROJECTS": {
+    "TITLE": "Projects",
+    "VIEW": "View project →",
+    "PROJECT_1_TITLE": "Ignis Gravitas",
+    "PROJECT_1_DESCRIPTION": "A digital accelerator for startups and an exclusive, growing entrepreneurial ecosystem.",
+    "PROJECT_2_TITLE": "Profit4life",
+    "PROJECT_2_DESCRIPTION": "Academy dedicated to Forex and the management of investments and financial opportunities.",
+    "PROJECT_3_TITLE": "Átomo Virtual",
+    "PROJECT_3_DESCRIPTION": "Web development agency, designing websites and platforms optimized for search engine ranking."
   },
   "CONTACT": {
     "TITLE": "Contact",
