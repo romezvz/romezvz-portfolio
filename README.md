@@ -1,59 +1,74 @@
 # RomezVz Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.3.
+_A modern personal portfolio and snippet manager style showcase built with Angular and TypeScript._
 
-## Development server
+## [Try the live demo](https://romezvz.com/) ⚡
 
-To start a local development server, run:
+<br>
+
+## Getting Started 🚀
+
+_These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system._
+
+See **Requirements** to know the minimum standards to use the project.
+
+### Requirements 📋
+
+_You need to have the following technologies installed to use this project._
+
+Any browser to open the project.
+
+* [Visual Studio Code](https://code.visualstudio.com/download) - Or any other code editor of your choice
+* [Node.js](https://nodejs.org/es/download) - Verify the version of each project
+* [Angular CLI](https://angular.dev/) - Verify the version of each project
+
+<br>
+
+### Installing 🔧
+
+_To use this project you will need to clone this repository or download it to your computer._
 
 ```bash
+# Clone the repo
+git clone https://github.com/romezvz/romezvz-portfolio.git
+
+# Go to project
+cd romezvz-portfolio
+
+# Install dependencies
+npm install
+
+# Start local development server
 ng serve
+
+# Use Project
+Open http://localhost:4200 in your browser.
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+<br>
 
-## Code scaffolding
+## Built With 🛠️
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+_Technologies used in the project:_
 
-```bash
-ng generate component component-name
-```
+* [Angular CLI](https://angular.io/cli)
+* [TypeScript](https://www.typescriptlang.org)
+* [Tailwind CSS](https://tailwindcss.com)
+* [GitHub Pages](https://pages.github.com)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+<br>
 
-```bash
-ng generate --help
-```
+## Author ✒️
 
-## Building
+_If you like what I do, visit my website and share my content, you can also follow me on my networks to be aware of new publications and interesting projects that I will be developing._
 
-To build the project run:
+Made with 💖 by - [Jose Romero](https://romezvz.com/)
 
-```bash
-ng build
-```
+### Social networks
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+* **LinkedIn** - *Professional developer profile* - [@romezvz](https://www.linkedin.com/in/romezvz/) 💼
+* **GitHub** - *Repositories of my latest projects* - [@romezvz](https://github.com/romezvz) 💻
+* **Instagram** - *Documenting my journey* - [@romezvz](https://www.instagram.com/romezvz/) 🎞️
+* **Twitter** - *Random comments and more* - [@romezvz](https://twitter.com/romezvz) ✒️
+* **Threads** - *More pics and life* - [@romezvz](https://www.threads.com/@romezvz) 🗿
+* **Strava** - *One of my personal hobbies* - [@romezvz](https://www.strava.com/athletes/165467449) 💪
