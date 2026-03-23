@@ -18,9 +18,9 @@ _You need to have the following technologies installed to use this project._
 
 Any browser to open the project.
 
-* [Visual Studio Code](https://code.visualstudio.com/download) - Or any other code editor of your choice
-* [Node.js](https://nodejs.org/es/download) - Verify the version of each project
-* [Angular CLI](https://angular.dev/) - Verify the version of each project
+* [Visual Studio Code](https://code.visualstudio.com/download) - Or any other code editor of your choice.
+* [Node.js](https://nodejs.org/es/download) - Verify the version of each project.
+* [Angular CLI](https://angular.dev/) - Verify the version of each project.
 
 <br>
 
